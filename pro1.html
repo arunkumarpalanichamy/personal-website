@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Personal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #0073e6;
+        }
+        table, th, td {
+            border: 1px solid #aaa;
+            border-collapse: collapse;
+            padding: 8px;
+        }
+        form {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Name and Photo -->
+    <h1>ARUNKUMAR</h1>
+    
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#bio">Bio</a>
+        <a href="#education">Education</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <hr>
+
+    <!-- Short Bio -->
+    <h2 id="bio">About Me</h2>
+    <p>Hello! I'm ARUNKUMAR, a passionate developer who loves coding & learning new technologies .</p>
+
+    <hr>
+
+    <!-- Academic Background Table -->
+    <h2 id="education">Academic Background</h2>
+    <table>
+        <tr>
+            <th>Degree</th>
+            <th>Institution</th>
+            <th>Year</th>
+        </tr>
+        <tr>
+            <td>Bachelor of Science in Computer Science</td>
+            <td>Madurai Kamarajar University</td>
+            <td>2022</td>
+        </tr>
+        <tr>
+            <td>High School</td>
+            <td>Nadar Higher Secondary School</td>
+            <td>2018</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <!-- Hobbies List -->
+    <h2 id="hobbies">My Hobbies</h2>
+    <ul>
+        <li>Reading Tech Blogs</li>
+        <li>Playing Chess</li>
+        <li>Traveling</li>
+        <li>Listening to Music</li>
+    </ul>
+
+    <hr>
+
+    <!-- Contact Form -->
+    <h2 id="contact">Contact Me</h2>
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="10"></textarea><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
